@@ -1,4 +1,4 @@
-# unit-test-demo
+# unit-test
 
 [![travis-ci](https://travis-ci.org/tank0317/unit-test-demo.svg?branch=master)](https://travis-ci.org/tank0317/unit-test-demo)
 [![codecov](https://codecov.io/gh/tank0317/unit-test-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/tank0317/unit-test-demo)
