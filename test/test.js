@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from '../src/App'
+import {sort} from '../src/assets/util'
 
 Vue.config.productionTip = false
 
@@ -17,6 +18,15 @@ describe('我的 Vue 测试', function () {
 
       let h1 = instance.$el.querySelector('.hello h1')
       expect(h1.textContent).to.equal('Welcome to Your Vue.js App')
+    })
+  })
+})
+
+describe('util 功能函数测试', function () {
+  describe('sort', function () {
+    it('从小到大排序', function () {
+      let arr = [1, 2, 5, 3, 0]
+      expect(sort(arr)).to.eql([0, 1, 2, 3, 5])
     })
   })
 })
